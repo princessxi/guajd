@@ -32,8 +32,6 @@
 15 10,15,18 17-31 5 * node /scripts/jd_pk.js >> /scripts/logs/jd_pk.log 2>&1
 #母婴跳一跳 
 1 0,11,21 * * * node /scripts/jd_jump.js >> /scripts/logs/jd_jump.log 2>&1
-#Redmi合成小金刚
-20 9,21 21-27 5 * node /scripts/jd_Redmi.js >> /scripts/logs/jd_Redmi.log 2>&1
 #人头马
 20 10,19 20-31 5 * node /scripts/jd_martin.js >> /scripts/logs/jd_martin.log 2>&1
 #手机狂欢城
@@ -41,7 +39,7 @@
 #城城分现金
 0 0-23/3 * * * node /scripts/jd_city.js >> /scripts/logs/jd_city.log 2>&1
 #金榜创造营
-40 9,21 * * * node /scripts/jd_jbczy.js >> /scripts/logs/jd_jbczy.log 2>&1
+40 9,21 * * * node /scripts/jd_gold_creator.js >> /scripts/logs/jd_gold_creator.log 2>&1
 #动物联盟
 0 0-23/1 * * * node /scripts/jd_zoo.js >> /scripts/logs/jd_zoo.log 2>&1
 #星推官
